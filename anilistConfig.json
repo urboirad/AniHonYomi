@@ -1,0 +1,5 @@
+{
+    "aniclient": "ID",
+    "anisecret": "Secret",
+    "redirectUrl": "https://anilist.co/api/v2/oauth/pin"
+}
