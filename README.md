@@ -27,7 +27,7 @@ Anilist importer for Tachiyomi, Suwayomi, and Mihon including backup merger, cle
 Install the required packages:
 
 ```cmd
-pip install requests varint google-protobuf fuzzywuzzy
+pip3 install -r requirements.txt
 ```
 
 You'll also need the Protocol Buffers compiler (protoc) to generate the schema:
