@@ -1,0 +1,5 @@
+requests>=2.32.0
+varint>=1.0.2
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.27.0  # Optional, speeds up fuzzywuzzy
+protobuf>=4.21.0
