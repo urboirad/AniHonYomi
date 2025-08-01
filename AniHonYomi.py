@@ -605,7 +605,7 @@ def convert_manga_to_tachiyomi_format(manga_items):
         
         # Set manga source info
         media = item['media']
-        safe_set_attribute(manga, 'source', 6902)  # This is the ID for Mangadex, can also be swapped for 0 as a placeholder
+        safe_set_attribute(manga, 'source', 0)  # This is a placeholder ID, can be swapped for something like MangaDex's ID (6902)
         
         # Set manga title - prefer English title, fallback to romaji
         title = media['title']['english'] if media['title']['english'] else media['title']['romaji']
